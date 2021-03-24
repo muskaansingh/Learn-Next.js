@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
             <h1 className={headerStyles.title}>
-            <span>Web Development</span>News
+            <span>Web Development &nbsp;</span>News
             </h1>
             <p className={headerStyles.description}>
             Keep up to date with the Web Development news!
@@ -13,4 +13,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
