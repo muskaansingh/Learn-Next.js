@@ -1,0 +1,41 @@
+.header {
+    height: 50px;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    border: 1px solid #e0dddd;
+}
+
+.headerright{
+    justify-content: flex-start;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerright img {
+    height: 45px;
+}
+
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.header ul li {
+    font-size: 16px;
+    color: #565252;
+    font-weight: 400;
+}
+.header ul li a {
+    margin: 5px 37px;
+}
